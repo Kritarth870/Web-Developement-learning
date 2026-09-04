@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center";>Student Registration Form </h1>
+    <!-- form  -->
+    <form action="/submit" method="get" autocomplete="on">
+        <fieldset>
+            <legend style="text-align: center; font-size: larger;">Personal Details</legend>
+
+        <!-- Name -->
+        <label for="fullName">Name : </label>
+        <input type="text" id="fullName" placeholder="Enter Your Name" minlength="3" maxlength="20">
+
+            <br> <br>
+        
+        <!-- Email -->
+            <label for="email">Email :</label>
+            <input type="email" id="email" required placeholder="example@gmail.com">
+
+            <br> <br>
+        
+        <!-- Password -->
+            <label for="Password">Password :</label>
+            <input type="password" name="password" id="password" required placeholder="Enter Your Password">
+
+            <br> <br>
+        
+        <!-- Password -->
+            <label for="phn">Phone No :</label>
+            <input type="number" name="phn" id="phn" required placeholder="Enter Your Phone No">
+
+            <br> <br>
+
+        <!-- Gender -->
+            <label for="Gender">Gender :</label>
+            <input type="radio" name="Gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male">
+            <label for="radio">Female</label>
+            <input type="radio" name="Gender" id="male">
+            <label for="radio">Other</label>
+
+            <br> <br>
+
+        <!-- Date of Birth -->
+            <label for="Date">Date of Birth :</label>
+            <input type="date" id="Date">
+
+            <br> <br>
+
+        <!-- City  -->
+            <label for="city">City :</label>
+            <select name="city" id="city">
+                <option value="">--Select City--</option>
+                <option value="delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="NOIDA">NOIDA</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Jhansi">Jhansi</option>
+            </select>
+
+            <br><br>
+
+        <!-- File Selection  -->
+            <label for="file">Select File :</label>
+            <input type="file">
+
+            <br><br>
+
+        <!-- Submit Button -->
+         <a href="google.com">Submit</a>
+            <!-- <button type="submit">Submit</button> -->
+
+        <!-- Reset Button -->
+            <button type="reset">Reset</button>
+
+        </fieldset>        
+    </form>
+</body>
+</html>
